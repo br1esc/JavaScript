@@ -3,7 +3,7 @@ var DNI = prompt ( 'Indica solo el numero de DNI:', '')
 console.log(DNI, 'tu dni')
 
 var letras= ['T', 'R', 'W', 'A', 'G', 'M', 'Y', 'F', 'P', 'D', 'X', 'B', 'N', 'J', 'Z', 'S', 'Q', 'V', 'H', 'L', 'C', 'K', 'E', 'T'];
-var Letrausuario = prompt ( 'Indica la letra:' )
+var Letrausuario = prompt ( 'Indica la letra EN MAYUSCULAS:' )
 
 if ( DNI < 0 || DNI > 999999999 ){ 
     alert('No es un DNI valido')
